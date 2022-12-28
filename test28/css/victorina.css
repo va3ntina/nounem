@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(#6792a3, rgba(0, 153, 255, 0.555),rgba(102, 0, 255, 0.56)) ;
+    height: 100vh;
+    margin: 0;
+}
+div#container {
+    width: 500px;
+    margin: 100px auto;
+}
+div#testC{
+    background: #276c87;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+div#testAnswer h2{
+    text-align: center;
+    color: #000000;
+    padding: 20px 0;
+}
+div#listAnsfer{
+    background:lavender ;
+}
+label.answ{
+    display: block;
+    padding: 15px 0 5px 20px;
+    font-size: 27px;
+}
+input#testRez{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    background: #276c87 ;
+    border: none;
+    display: block;
+    font-size: 27px;
+    padding: 10px 0;
+    cursor: pointer;
+}
